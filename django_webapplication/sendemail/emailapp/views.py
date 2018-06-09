@@ -16,7 +16,7 @@ def send_an_email(request):
             mail = smtplib.SMTP('smtp.gmail.com', 587)
             mail.ehlo()
             mail.starttls()
-            mail.login('email', 'pwd')
+            mail.login('mytrainingemail2000@gmail.com', 'l&t12345')
             mail.sendmail('test@test.com', post.emailid, message )
             mail.close()
             return render(request, 'emailapp/sendemailpage.html', {'msg': 'Success!'})
