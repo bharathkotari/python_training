@@ -1,0 +1,11 @@
+A Document represents an entire XML document, including its constituent elements, attributes, processing instructions, comments etc. Remember that it inherits properties from Node.
+
+Document.documentElement
+The one and only root element of the document.
+
+Document.createElement(tagName)
+Create and return a new element node. The element is not inserted into the document when it is created. You need to explicitly insert it with one of the other methods such as insertBefore() or appendChild().
+
+Document.createElementNS(namespaceURI, tagName)
+Create and return a new element with a namespace. The tagName may have a prefix. The element is not inserted into the document when it is created. You need to explicitly insert it with one of the other methods such as insertBefore() or appendChild().
+

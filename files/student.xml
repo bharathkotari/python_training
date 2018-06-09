@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<student>
+	<first>ram</first>
+	<last>sharma</last>
+	<residence>banglore</residence>
+	<hobby name="trekking"/>
+	<hobby name="football"/>
+	<hobby name="eating"/>
+	<hobby name="sleeping"/>
+</student>

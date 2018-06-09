@@ -1,0 +1,11 @@
+f=open("uselessdata.txt","r")
+lines=f.readlines()
+f.close()
+
+f=open("uselessdata.txt","r")
+lines=list(f)
+f.close()
+#print(lines[2])
+f=open("write_useless.txt","w")
+f.writelines(lines)
+f.close()
